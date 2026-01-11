@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bagiannav {
+  gap: 58%;
+  min-width: 100%;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.bagiannav1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.judulweb {
+  font-size: 20px;
+}
+
+.bagiannav2 {
+  align-items: center;
+  display: flex;
+}
+
+nav {
+  gap: 10px;
+  display: flex;
+}
+
+.home, .member, .kontak {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.home:hover, .member:hover, .kontak:hover {
+  color:  royalblue;
+  transform: scale(1.1);
+  padding: 10px;
+}
+
+.iconnav {
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 0 0 5px black,
+              0 0 10px white;
+}
+
+#Home {background-color: midnightblue;}
+#Member {background-color: whitesmoke;}
+#Kontak {background-color: midnightblue;}
+
+section {
+  scroll-margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.bagianhome {
+  margin-top: 50px;
+}
+
+.isihome {
+  display: flex;
+  gap: 230px;
+}
+
+.judulhome {
+  margin-top: 100px;
+  font-size: 28px;
+  color: white;
+}
+
+.deks {
+  margin-top: 5px;
+  color: white;
+}
+
+.tombol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: seagreen;
+  width: 180px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.tombol:hover {
+  transform: scale(1.01);
+  margin-top: 25px;
+}
+
+.dekstombol {
+  padding: 22px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.iconhome {
+  height: 430px;
+  width: 430px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.iconhome:hover {
+  transform: translateY(-2%);
+  box-shadow: 0 0 5px white,
+              0 0 10px midnightblue;
+}
+
+.isimember {
+  background-color: white;
+  box-shadow: 0 0 3px black;
+  padding: 30px;
+  border-radius: 15px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.deksmember {
+  text-align: center;
+}
+
+.bagianfotomember {
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.fotomember1, .fotomember2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  box-shadow: 0 0 3px black;
+  border-radius: 10px;
+  padding: 10px;
+  height: 230px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.fotomember1:hover, .fotomember2:hover {
+  margin-top: -20px;
+  height: 300px;
+  box-shadow: 0 0 15px gray;
+}
+
+.nick {
+  margin-top: 8px;
+}
+
+.bagianavatar {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detailavatar {
+  gap: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.deksavatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.deksavatar:hover {
+  background-color: lightblue;
+}
+
+.teksajakan {
+  margin-top: 35px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonhubungi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: mediumseagreen;
+  transition: all 0.5s ease;
+}
+
+.texthubungi {
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.buttonhubungi:hover {
+  box-shadow: 0 0 10px gray;
+  transform: scale(1.02);
+  margin-top: 22px;
+}
+
+.isikontak {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  gap: 250px;
+}
+
+.foto {
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+}
+
+.iconhubungi {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  width: 450px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.iconhubungi:hover {
+  transform: translateY(-2%);
+  box-shadow: 0 0 10px gray;
+}
+
+.texthubungikami2 {
+  color: white;
+  text-align: center;
+}
+
+.nama, .subjek {
+  font-size: 17px;
+  margin: 5px auto;
+  padding: 20px;
+  width: 500px;
+  height: 80px;
+}
+
+.pesan {
+  font-size: 18px;
+  margin: 10px auto;
+  padding: 20px;
+  width: 500px;
+  height: 180px;
+}
+
+.nama, .subjek, .pesan {
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.nama:hover, .subjek:hover, .pesan:hover {
+  transform: translateY(-5%);
+  box-shadow: 0 0 10px gray;
+}
+
+.tombolkontak {
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  background-color: seagreen;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.tombolkontak:hover {
+  transform: translateY(-10%);
+  box-shadow: 0 0 10px gray;
+}
+
+.textkirim {
+  padding: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+}
